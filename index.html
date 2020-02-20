@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Relevant stylesheets -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- Navbar creation & title -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Webdev Resources</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar content -->
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.w3schools.com/" target="_blank"> W3C Schools <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://validator.w3.org/" target="_blank">W3C NU Validator</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.codecademy.com/learn" target="_blank">Codecademy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://codepen.io/" target="_blank">CodePen</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://reactjs.org/" target="_blank">React.js</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://nodejs.org/en/" target="_blank">Node.js</a>
+        </li>
+
+        <!-- Navbar dropdown with more content -->
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">More</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="https://coder-coder.com/" target="_blank">CoderCoder</a>
+            <a class="dropdown-item" href="https://devdocs.io/" target="_blank">Devdocs</a>
+            <a class="dropdown-item" href="https://wave.webaim.org/" target="_blank">WAVE</a>
+          </div>
+        </li>
+      </ul>
+
+      <!-- Search button -->
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Main jumbotron -->
+    <div class="jumbotron backImg">
+      <div class="container">
+        <!-- Main heading -->
+        <h1 class="display-3 headerColor">Mason Cantrell</h1>
+        <p><a class="btn btn-primary btn-lg" href="https://github.com/mcantrelldev" target="_blank" role="button">This
+            GitHub Project's Code &raquo;</a></p>
+        <!-- Subtitle -->
+        <p class="headerColor"> This is a page showcasing my current accomplishments as a webdev. <br /> My CodePen is
+          the same as my GitHub username, mcantrelldev.</p>
+        <img class="selfieFormat" src="img/masonProfile.jpg" alt="My senior photo from high school" width="140"
+          height="200">
+      </div>
+    </div>
+
+    <div class="container texturedBackground">
+      <!-- Columns with dev info -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Dev01 - Hello, local</h2>
+          <p>In dev01, we were tasked with making our first home page. We were introduced to all
+            elements of a basic webpage. We used this assignment to get us familar with creating basic locally hosted
+            web content.</p>
+          <!-- Image and two buttons for seeing the code and page -->
+          <img class="devFormat" src="img/dev01.png" alt="Image of dev01" width="350" height="200">
+          <p><a class="btn btn-secondary" href="https://mcantrelldev.github.io/dev01/" target="_blank"
+              role="button">Click here to visit the page &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="https://github.com/mcantrelldev/dev01" target="_blank"
+              role="button">Click here to visit the code &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Dev02 - Directory and Structure</h2>
+          <p>In dev02, we applied navigation links to our already functional dev01. We linked it to a image
+            design guide which informed the user on what image type and size to use for what occasion. The guide
+            was very detailed and let you navigate back and forth between pages.</p>
+          <!-- Image and two buttons for seeing the code and page -->
+          <img class="devFormat" src="img/dev02.png" alt="Image of dev01" width="350" height="200">
+          <p><a class="btn btn-secondary" href="https://mcantrelldev.github.io/dev02/" target="_blank"
+              role="button">Click here to visit the page &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="https://github.com/mcantrelldev/dev02" target="_blank"
+              role="button">Click here to visit the code &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Dev03 - Box model</h2>
+          <p>In dev03, we learned about the box model. The idea that HTML elements are essentially containers. We
+            designed a webpage
+            using div positioning, floats and elements like flex. We also designed a page that wwe linked to that showed
+            the borders of each
+            box with red outlines. This was also the first assignment we published to GitHub pages.</p>
+          <!-- Image and two buttons for seeing the code and page -->
+          <img class="devFormat" src="img/dev03.png" alt="Image of dev01" width="350" height="200">
+          <p><a class="btn btn-secondary" href="https://mcantrelldev.github.io/mcantrellDev03/" target="_blank"
+              role="button">Click here to visit the page &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="https://github.com/mcantrelldev/mcantrellDev03" target="_blank"
+              role="button">Click here to visit the code &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Dev04 - Getting Bootstrap</h2>
+          <p>In dev04, we were tasked with grabbing a bootstrap example, specifically jumbotron and uploaded it to
+            GitHub pages. We changed the hello world
+            text to our own and got familar with bootstrap. This also was our first introduction to js scripts in html. </p>
+          <!-- Image and two buttons for seeing the code and page -->
+          <img class="devFormat" src="img/dev04.png" alt="Image of dev01" width="350" height="200">
+          <p><a class="btn btn-secondary" href="https://mcantrelldev.github.io/mcantrellDev04/" target="_blank"
+              role="button">Click here to visit the page &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="https://github.com/mcantrelldev/mcantrellDev04" target="_blank"
+              role="button">Click here to visit the code &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Dev05 - Bootstrap home page</h2>
+          <p>In dev05, we redid our best homepage in a bootstrap layout. This further reinforced our experience with
+            bootstrap and really gave me an
+            idea of what each class in bootstrap does. I also added classes on top of the bootstrap to manipulate it how
+            I wanted. </p>
+          <!-- Image and two buttons for seeing the code and page -->
+          <img class="devFormat" src="img/dev05.png" alt="Image of dev01" width="350" height="200">
+          <p><a class="btn btn-secondary" href="https://mcantrelldev.github.io/dev05/" target="_blank"
+              role="button">Click here to visit the page &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="https://github.com/mcantrelldev/dev05" target="_blank"
+              role="button">Click here to visit the code &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+    </div> <!-- End of container of dev assignments -->
+
+  </main>
+
+  <!-- Footer -->
+
+  <footer class="container">
+    <p>&copy; Copyright© 2019-2020</p>
+  </footer>
+
+  <!-- JS scripts for bootstrap -->
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script src='https://getbootstrap.com/docs/4.4/dist/js/bootstrap.bundle.min.js'></script>
+</body>
+
+</html>

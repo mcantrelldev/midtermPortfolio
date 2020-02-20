@@ -1,0 +1,33 @@
+/* Sets a light dray background color and adds a Google font*/
+body {
+  background-color: lightgray;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Background image for the first div container*/
+.backImg {
+     background-image: url("../img/cityImage.jpg"); 
+}
+
+/* Color for the header*/
+.headerColor {
+    color: white;
+}
+
+/* Formatting for the self image*/
+.selfieFormat {
+  border-radius: 10px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* Formatting for the dev previews image*/
+.devFormat {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* Adds a textured background to each devs*/
+.texturedBackground {
+  background-image: url('data:image/svg+xml,%3Csvg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%239C92AC" fill-opacity="0.4" fill-rule="evenodd"%3E%3Cpath d="M0 40L40 0H20L0 20M40 40V20L20 40"/%3E%3C/g%3E%3C/svg%3E');
+}
